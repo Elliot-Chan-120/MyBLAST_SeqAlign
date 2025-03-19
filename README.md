@@ -4,7 +4,7 @@ This project utilizes two classes designed to process and analyze BLAST (Basic L
 
 The default expect value is set to 0.001, but if insufficient matches with this value are received, the value will be automatically adjusted and the program will be rerun with it. Furthermore, if a sequence biotype is not specified by the user, the BlastData class will automatically detect it.
 
-It is recommended that classes are run one at a time, as database queries can take up to 9 minutes each run, whereas generating the quality alignment summary chart is much faster.
+It is recommended that classes are run one at a time, as database queries can take up to 9-10 minutes each run (before I got a timeout error), whereas generating the quality alignment summary chart is much faster.
 
 Dependencies:
 - Python 3.8+

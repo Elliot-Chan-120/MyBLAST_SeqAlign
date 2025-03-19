@@ -7,7 +7,7 @@ def test_blast_toolkit():
     test.all_info_txt_export()
     test.database_save()
 
-def test_data_procesor():
+def test_data_processor():
     demo = DataProcessor()
     demo.extract_all_data()
     demo.bit_scores()
